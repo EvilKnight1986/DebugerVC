@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DebugerVC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\EVILKN~1\LOCALS~1\Temp\RSPF2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/DebugerVC.pch" /YX /Fo"Debug/" /Fd"Debug/" /J /FD /GZ /c 
+"E:\myProject\DebugerVC\AberranceTree.cpp"
+"E:\myProject\DebugerVC\adjacency.cpp"
+"E:\myProject\DebugerVC\aList.cpp"
+"E:\myProject\DebugerVC\Disasm\asmserv.cpp"
+"E:\myProject\DebugerVC\Disasm\assembl.cpp"
+"E:\myProject\DebugerVC\Debug.cpp"
+"E:\myProject\DebugerVC\Disasm\disasm.cpp"
+"E:\myProject\DebugerVC\DllExportFun.cpp"
+"E:\myProject\DebugerVC\Entry.cpp"
+"E:\myProject\DebugerVC\List.cpp"
+"E:\myProject\DebugerVC\MemBreak.cpp"
+"E:\myProject\DebugerVC\MemList.cpp"
+"E:\myProject\DebugerVC\MyList.cpp"
+"E:\myProject\DebugerVC\PEAnalyse.cpp"
+"E:\myProject\DebugerVC\RedBlackTree.cpp"
+"E:\myProject\DebugerVC\Tools.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\EVILKN~1\LOCALS~1\Temp\RSPF2.tmp" 
+Creating temporary file "C:\DOCUME~1\EVILKN~1\LOCALS~1\Temp\RSPF3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/DebugerVC.pdb" /debug /machine:I386 /out:"Debug/DebugerVC.exe" /pdbtype:sept 
+.\Debug\AberranceTree.obj
+.\Debug\adjacency.obj
+.\Debug\aList.obj
+.\Debug\asmserv.obj
+.\Debug\assembl.obj
+.\Debug\Debug.obj
+.\Debug\disasm.obj
+.\Debug\DllExportFun.obj
+.\Debug\Entry.obj
+.\Debug\List.obj
+.\Debug\MemBreak.obj
+.\Debug\MemList.obj
+.\Debug\MyList.obj
+.\Debug\PEAnalyse.obj
+.\Debug\RedBlackTree.obj
+.\Debug\Tools.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\EVILKN~1\LOCALS~1\Temp\RSPF3.tmp"
+<h3>Output Window</h3>
+Compiling...
+AberranceTree.cpp
+adjacency.cpp
+aList.cpp
+asmserv.cpp
+assembl.cpp
+Debug.cpp
+disasm.cpp
+DllExportFun.cpp
+Entry.cpp
+List.cpp
+MemBreak.cpp
+MemList.cpp
+MyList.cpp
+PEAnalyse.cpp
+RedBlackTree.cpp
+Tools.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\EVILKN~1\LOCALS~1\Temp\RSPF5.tmp" with contents
+[
+/nologo /o"Debug/DebugerVC.bsc" 
+.\Debug\AberranceTree.sbr
+.\Debug\adjacency.sbr
+.\Debug\aList.sbr
+.\Debug\asmserv.sbr
+.\Debug\assembl.sbr
+.\Debug\Debug.sbr
+.\Debug\disasm.sbr
+.\Debug\DllExportFun.sbr
+.\Debug\Entry.sbr
+.\Debug\List.sbr
+.\Debug\MemBreak.sbr
+.\Debug\MemList.sbr
+.\Debug\MyList.sbr
+.\Debug\PEAnalyse.sbr
+.\Debug\RedBlackTree.sbr
+.\Debug\Tools.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\EVILKN~1\LOCALS~1\Temp\RSPF5.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DebugerVC.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
